@@ -20,6 +20,14 @@ PTCONbits.PTEN = 1;
 double talon = 50;
 void PWMSetSpeed(float vitesseEnPourcents)
 {
-PDC1 = vitesseEnPourcents * PWMPER + talon;
-SDC1 = talon;
+    if (vitesseEnPourcents > 0){
+        PDC1 = vitesseEnPourcents * PWMPER + talon;
+        SDC1 = talon;
+    }
+    else if (vitesseEnPourcents < 0){
+         
+        SDC1 = -vitesseEnPourcents*PWMPER+ talon;
+        PDC1 = talon;
+    }
+    
 }
