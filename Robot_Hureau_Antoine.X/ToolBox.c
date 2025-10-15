@@ -5,6 +5,7 @@ if (value >= 0)
 return value;
 else return -value;
 }
+
 float Max(float value, float value2)
 {
 if (value > value2)
@@ -12,6 +13,7 @@ return value;
 else
 return value2;
 }
+
 float Min(float value, float value2)
 {
 if (value < value2)

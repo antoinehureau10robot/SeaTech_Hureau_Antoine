@@ -4,6 +4,6 @@
 #define MOTEUR_GAUCHE 1
 void PWMSetSpeed();
 void InitPWM();
-void PWMUpdateSpeed(float acceleration);
+void PWMUpdateSpeed();
 void PWMSetSpeedConsigne(float vitesseEnPourcents, char moteur);
 #endif
