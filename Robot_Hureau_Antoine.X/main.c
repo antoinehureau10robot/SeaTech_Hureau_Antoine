@@ -7,6 +7,7 @@
 #include "PWM.h"
 #include "ADC.h"
 #include "robot.h"
+#include"main.h"
 
 unsigned int ADCValue0, ADCValue1, ADCValue2;
 
@@ -18,6 +19,7 @@ int main(void) {
     InitTimer1();
     InitPWM();
     InitADC1();
+    InitTimer4();
     
     LED_BLANCHE_1 = 1;
     LED_BLEUE_1 = 1;

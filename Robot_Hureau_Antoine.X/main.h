@@ -1,9 +1,3 @@
-/* 
- * File:   main.h
- * Author: E306-PC4
- *
- * Created on 20 octobre 2025, 10:22
- */
 
 #ifndef MAIN_H
 #define	MAIN_H
