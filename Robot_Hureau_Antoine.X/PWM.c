@@ -22,7 +22,7 @@ void InitPWM(void) {
     PTCONbits.PTEN = 1;
 }
 double talon = 50;
-float acceleration = 1.0;
+float acceleration = 50.0;
 
 void PWMSetSpeedConsigne(float vitesseEnPourcents, char moteur) {
     if (moteur == MOTEUR_DROIT) {
