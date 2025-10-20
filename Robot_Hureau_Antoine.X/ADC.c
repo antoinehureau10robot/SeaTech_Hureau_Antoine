@@ -8,7 +8,7 @@
  // Configuration ADC
  /****************************************************************************************************/
  void InitADC1(void)
- {
+{
  //cf. ADC Reference Manual page 47
  //Configuration en mode 12 bits mono canal ADC avec conversions successives sur 4 éntres
  /************************************************************/
